@@ -1,0 +1,20 @@
+{
+  "name": "elastic-rum-example",
+  "version": "1.0.0",
+  "description": "Lit application example to showcase how transactions and spans can be sent to elastic stack",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite --cors --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/apm-rum": "^5.17.0",
+    "@lit-labs/router": "^0.1.4",
+    "@shoelace-style/shoelace": "^2.20.1",
+    "lit": "^3.3.1"
+  },
+  "devDependencies": {
+    "vite": "^7.1.12"
+  }
+}
